@@ -5,6 +5,7 @@ MAPBOX_ACCESS_TOKEN=""
 
 if [ "$MAPBOX_ACCOUNT_NAME" == '' ] || [ "$MAPBOX_ACCESS_TOKEN" == '' ]; then
     echo "Please set your MapBox account name and/or access token before running this script."
+    exit 1
 else
     echo "Your MapBox account name = $MAPBOX_ACCOUNT_NAME"
     echo "Your MapBox access token = $MAPBOX_ACCESS_TOKEN"
