@@ -7,10 +7,10 @@ If for whatever reason (like broken dependencies) the [MapBox-CLI](https://githu
 0. Bash (although other shells may work it has not been tested)
 1. Your MapBox accountname and MapBox access token (make sure this token has `uploads:write` and `uploads:read` [permissions](https://www.mapbox.com/help/how-access-tokens-work/))
 2. Some basic software packages that you may already have.
-  * cURL: to make http requests
-  * python: required for the Amazon Web Services CLI
-  * AWS CLI: to upload your geotiffs to MapBox's S3 bucket
-  * JQ: to parse the json responses of the MapBox API
+  * `cURL`: to make http requests. On Debian based distro's: `apt install curl`
+  * `python`: required for the Amazon Web Services CLI. Probably present, if not: `apt install python` 
+  * `AWS CLI`: to upload your geotiffs to MapBox's S3 bucket. Easiest to install using python-pip: `apt install python-pip` and then `pip install awscli`
+  * `JQ`: to parse the json responses of the MapBox API in bash. `apt install jq`
 
 ## How to run
 1. Place all your geotiffs in one folder
