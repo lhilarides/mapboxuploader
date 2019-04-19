@@ -1,7 +1,7 @@
 # MapBox GeoTiff Uploader
 
 ## Description
-If for whatever reason (like broken dependencies) the [MapBox-CLI](https://github.com/mapbox/mapbox-cli-py/) does not work for you, this bash script will upload all GeoTiffs in a folder via the MapBox API using cURL. All it needs to do so is:
+If for whatever reason (like broken dependencies) the [MapBox-CLI](https://github.com/mapbox/mapbox-cli-py/) does not work for you, this bash script will upload all GeoTiffs in a folder via the MapBox API as tilesets using cURL. All it needs to do so is:
 
 ## Requirements
 0. Bash (although other shells may work it has not been tested)
